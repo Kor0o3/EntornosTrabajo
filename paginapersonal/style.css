@@ -1,0 +1,130 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+div.encabezado {
+    background-color: #333;
+    text-align: center;
+    border-bottom: 5px solid #e67e22;
+    padding: 2%;
+}
+
+div.encabezado h1 {
+    color: white;
+    font-size: 45px;
+    margin: 0%;
+}
+
+div.encabezado h2 {
+    color: #e67e22;
+    font-size: 28px;
+    margin: 0%;
+}
+
+
+div.presentacion {
+    overflow: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #d4d4d4;
+    margin: 1%;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+div.presentacion p {
+    padding: 3%;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+}
+
+div.presentacion img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    float: left;
+}
+
+div.hobbies {
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 2%;
+    margin: 1%;
+    margin-top: 2%;
+}
+
+div.hobbies li {
+    padding: 5px 0;
+}
+
+div.habilidades {
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px 3px #d4d4d4;
+    border-radius: 10px;
+    margin: 1%;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+div.habilidades table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div.habilidades table th {
+    background-color: #333;
+    border: 1px solid #ddd;
+    color: #ffffff;
+    padding: 8px;
+}
+
+div.habilidades table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+div.contacto {
+    background-color: rgba(235, 235, 235, 0.788);
+    box-shadow: 3px 3px 3px 3px #d4d4d4;
+    margin: 1%;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+div.contacto input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div.contacto input[type="submit"] {
+    background-color: #e67e22;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    padding: 10px;
+}
+
+div.contacto input[type="submit"]:hover {
+    background-color: #ba5b28;
+}
