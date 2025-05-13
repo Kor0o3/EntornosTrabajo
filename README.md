@@ -1,6 +1,6 @@
 # EntornosTrabajo
 ## Grupo 2
 - Raul
-- Alfonso
+- Alfonso Morales
 - Fernando
 - Iván
